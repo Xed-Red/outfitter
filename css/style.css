@@ -1,0 +1,124 @@
+/*НАстройка основ страницы */
+header {
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.size {
+  font-size: 20px;
+  color: black;
+}
+/*НАстройка чисто боди страницы */
+body {
+  background: linear-gradient(#F2F7B7, #CDE8B5, #B1DD8B);
+  width: 85%; 
+  margin-left:auto; 
+  margin-right:auto;
+  background-attachment:fixed;
+}
+
+/* НАстройка названия сайта */
+.siteName {
+  margin-right:100px;
+  color: black;
+}
+
+.sliderName{
+  text-align: center;
+}
+/* НАстройка слайдера */
+.page-title {
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  width: 440px;
+  height: 650px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slideImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slideSpecial{
+  width: 95%;
+  height: 90%;
+  object-fit: cover;
+}
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: black;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* НАстройки для блоков с товарами */
+.allOutfits {
+  display: flex; 
+  justify-content: space-between; 
+  color: black;
+}
+
+.photos {
+  width: 100%;
+  height: 70%;
+}
+.links {
+  list-style-type: none;
+}
+/* НАстройки для текста описания товаров */
+.textName {
+  text-align:center;
+}
+
+/* Стили для каждой колонки */
+.Outfits {
+  flex: 1; 
+  margin: 7px; 
+  padding: 7px; 
+  border-radius: 5px;
+  background: #40826D;
+}
+
+/* Стили контактов */
+footer {
+  font-size: 20px;
+  text-align: center;
+  width:100%;
+  border-radius: 4px;
+
+}
+.fotlogo {
+  display: inline-block;
+  margin-right: 41px;
+  margin-left: 41px;
+}
+
+.fotlogo img{
+  width: 50px;
+  height: 50px;
+}
